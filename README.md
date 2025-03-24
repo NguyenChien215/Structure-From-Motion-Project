@@ -16,18 +16,18 @@ This project implements a Structure From Motion (SFM) algorithm to reconstruct a
 
 ## Structure of the repositories
 Project Root 
-│── Chessboard/
-│── my_data/
-│── output/
-│── ReferenceCode/
-│── .python-version
-│── 1_CameraLib.py
-│── 2_Structure_From_Motion_Given_Image.py
-│── 3_Structure_From_Motion_Custom_Image.py
-│── Config.py
-│── pyproject.toml
-└── README.md
-
++ Chessboard/
++ my_data/
++ output/
++ ReferenceCode/
++ .python-version
++ 1_CameraLib.py
++ 2_Structure_From_Motion_Given_Image.py
++ 3_Structure_From_Motion_Custom_Image.py
++ Config.py
++ pyproject.toml
++ README.md
+---
 + Chessboard: Folder contains the images of the chessboard for camera calibration
 + my_data: The input data include given data and custom data, this data is use for structure from motion
 + output: The output data when running SfM project (include the Extracting feature, feature matching, camera parameter, ...)
